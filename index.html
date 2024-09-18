@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel website</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="main">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <img src="./images/logo.png" alt="no image" height="130px">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex align-items-lg-center">
+              <li class="nav-item">
+                <a class="nav-link me-4"  href="#welcome">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link me-4" href="#about">ABOUT US</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link me-4" href="#gallery">TOUR PACKAGES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link me-4" href="./contact.html">CONTACT</a>
+              </li>
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+
+      <!-- welcome -->
+       <div id="welcome">
+        <h1>“The world is a book, and those who do not <br>travel read only one page.”</h1>
+        <h2>– Saint Augustine</h2>
+        <button class="btn my-4 px-4 py-3 rounded-0">VIEW MORE ➡️</button>
+       </div>
+
+        <div id="imgs">
+            <div class="row">
+              <div class="col-lg-4 p-3">
+                <img src="https://d36tnp772eyphs.cloudfront.net/blogs/1/2011/05/maldives-1200x853.jpg" alt="no image" style="width: 100%;" height="450px">
+              </div>
+              <div class="col-lg-4 p-3">
+                <img src="https://wallpaperaccess.com/full/5923465.jpg" alt="no image" style="width: 100%;" height="450px">
+              </div>
+              <div class="col-lg-4 p-3">
+                <img src="https://th.bing.com/th/id/OIP.Br4G0nOM3C6ZGz7HI2fgxgHaE8?rs=1&pid=ImgDetMain" alt="no image" style="width: 100%;" height="450px">
+              </div>
+            </div> 
+        </div>    
+    </div>
+
+    <!-- about us -->
+    
+     <div class="container-fluid" id="about">
+      <div class="row">
+          <div class="col-md-1"></div>
+          <div class="col-md-5 ps-5">
+              <div id="aboutDiv">
+                  <img src="https://leadership.ng/wp-content/uploads/2022/10/IMG-20221010-WA0009.jpg" alt="no image" style="width: 108%; height:425px">
+              </div>
+          </div>
+          <div class="col-md-1"></div>
+          <div class="col-md-5 px-5">
+              <h3 class="mt-5 mt-lg-0">ABOUT US</h3>
+              <div id="hr"></div>
+              <p class="mt-4"> It's an online platform designed to help users plan, book,and manage their travel experiences. These websites often offer a range of services, including Flight Booking, Hotel Reservations, Tour Packages, Travel Guides.</p>
+
+              <button id="btn" class="btn my-4 px-4 py-3 rounded-0">View More</button>
+                  </div>
+              </div>
+            </div>
+
+<!-- gallery -->
+<div class="fluid-container mt-4" id="gallery">
+  <h1 class="text-center">OUR FAMOUS DESTINATIONS</h1>
+  <div id="fluid">
+    <div class="row">
+      <div class="col-lg-4">
+        <div style="position:relative;">
+          <img src="https://image.cnbcfm.com/api/v1/image/106616793-1594805802117gettyimages-900809876.jpg?v=1594864515" alt="no image" class="w-100" height="300px">
+          <div style="position: absolute; bottom: 0px" id="div1" class="d-flex justify-content-center align-items-center">
+            <h3>MALDIVES</h3>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div style="position:relative;">
+          <img src="https://th.bing.com/th/id/OIP.kY3JsT84m5ntyBOSg-wyZwHaEo?rs=1&pid=ImgDetMain" alt="no image" class="w-100" height="300px">
+          <div style="position: absolute; bottom: 0px" id="div1" class="d-flex justify-content-center align-items-center" >
+            <h3>THAILAND</h3>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div style="position:relative;">
+          <img src="https://www.tripsavvy.com/thmb/Xqg77lMGJaUcMQOtFjfTQr5jfY0=/6102x3947/filters:fill(auto,1)/malaysia-travel-583d01ac5f9b58d5b13cec0d.jpg" alt="no image" class="w-100" height="300px">
+          <div style="position: absolute; bottom: 0px" id="div1" class="d-flex justify-content-center align-items-center">
+            <h3>MALAYSIA</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="row">
+      <div class="col-lg-4">
+        <div style="position:relative;">
+          <img src="https://www.pocketwanderings.com/wp-content/uploads/2021/01/Spiez-1.jpg" alt="no image" class="w-100" height="300px">
+          <div style="position: absolute; bottom: 0px" id="div1" class="d-flex justify-content-center align-items-center">
+            <h3>SWITZERLAND</h3>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div style="position:relative;">
+          <img src="https://cdn.audleytravel.com/5234/3740/79/15985279-the-hague-skyline-netherlands.jpg" alt="no image" class="w-100" height="300px">
+          <div style="position: absolute; bottom: 0px" id="div1" class="d-flex justify-content-center align-items-center">
+            <h3>NETHERLANDS</h3>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div style="position:relative;">
+          <img src="https://www.mistay.in/travel-blog/content/images/2020/07/travel-4813658_1920.jpg" alt="no image" class="w-100" height="300px">
+          <div style="position: absolute; bottom: 0px" id="div1" class="d-flex justify-content-center align-items-center">
+            <h3>DELHI</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="text-center"><button id="btn1" class="btn my-5 px-4 py-3 rounded-0"><a href="#packages">VIEW MORE</a> </button></div>
+
+</div>
+<!-- packages -->
+
+<div id="packages">
+  <h1>Our Most Popular Tour <br>Packages</h1>
+  <div class="row ms-4">
+    <div class="col-lg-4 p-4">
+      <div class="card" style="width: 18rem;">
+        <img src="https://th.bing.com/th/id/OIP.aW7tM-MIkjQdOpjlf_gLTwHaE8?rs=1&pid=ImgDetMain" class="card-img-top" alt="no image" height="200px">
+        <div class="card-body">
+          <h5 class="card-title">Adventure Tours</h5>
+          <a href="#" class="btn btn-primary mt-3">View more</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 p-4">
+      <div class="card" style="width: 18rem;">
+        <img src="https://th.bing.com/th/id/OIP.U74rmhRK7oDz5oTRFSbw0gAAAA?rs=1&pid=ImgDetMain" class="card-img-top" alt="no image" height="200px">
+        <div class="card-body">
+          <h5 class="card-title">Luxury Tours</h5>
+          <a href="#" class="btn btn-primary mt-3">View more</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 p-4">
+      <div class="card" style="width: 18rem;">
+        <img src="https://asiadirecttravel.com/wp-content/uploads/2023/07/mangrove-wildlife-cruise-jsk-kotabelud-e1689599255951-800x934.jpg" class="card-img-top" alt="no image" height="200px">
+        <div class="card-body">
+          <h5 class="card-title">Wildlife & Natural Tours</h5>
+          <a href="#" class="btn btn-primary mt-3">View more</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="mt-5 bg-dark p-5 text-light">
+  <div class="row">
+    <div class="col-md-6 d-md-flex justify-content-center">
+      <div>
+        <h2 class="mt-4 mt-md-0">NAVIGATION</h2>
+        <p class="mt-4 text-md-center"><a href="" class="text-light">Home</a></p>
+        <p class="text-md-center"><a href="" class="text-light">About Us</a></p>
+        <p class="text-md-center"><a href="" class="text-light">Tour Packages</a></p>
+        <p class="text-md-center"><a href="" class="text-light">Hotel & Resort</a></p>
+        <p class="text-md-center"><a href="" class="text-light">Contact</a></p>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <h3 class="mt-4 mt-md-0">FOLLOW US</h3>
+      <div class="d-flex mt-4">
+        <input type="text" placeholder="Email ID" class="form-control">
+        <button class="btn btn-warning ms-3">subscribe</button>
+      </div>
+      <div class="d-flex mt-4 justify-content-around">
+        <i class="fa-brands fa-facebook fa-2x" ></i>
+        <i class="fa-brands fa-instagram fa-2x"></i>
+        <i class="fa-brands fa-twitter fa-2x"></i>
+      </div>
+
+    </div>
+  </div>
+
+</footer>
+</body>
+</html>

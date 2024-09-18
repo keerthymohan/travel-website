@@ -1,0 +1,152 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#main{
+    background-image: url('https://cdn.wallpapersafari.com/86/79/hgHjV1.jpg');
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+ul li{
+    font-size: 20px;
+    font-weight: bold;
+}
+ 
+#welcome{
+    margin-top: 13%;
+    margin-left: 5%;
+}
+#welcome h1{
+    font-style: italic;
+    font-size: 30px;
+    color: white;
+}
+#welcome h2{
+    margin-left: 18%;
+    font-size: 24px;
+    font-style: italic;
+    color: white;
+}
+#welcome button{
+    background-color: rgba(0, 0, 0, 0.477);
+    color: white;
+    font-weight: bold;
+    margin-left: 10%;
+}
+
+ #imgs{
+    background-color: white;
+    margin-top: 5%;
+    padding-top: 6%;
+    padding-bottom: 6%;
+ }
+ :root{
+    --x: rgb(30, 4, 173);
+ }
+ #about{
+    background-color: rgba(105, 176, 252, 0.751);
+    padding-top: 7%;
+    padding-bottom: 5%;
+}
+#about h1{
+    color: var(--x);
+}
+#hr{
+    background-color: var(--x);
+    width: 200px;
+    height:7px;
+}
+#aboutDiv{
+    border: 7px solid var(--x);
+    width: 80%;
+    height:420px;
+    padding-top: 4%;
+    padding-left: 4%;
+}
+#about p{
+    text-align: justify;
+    font-size: 22px;
+    font-style: italic;
+}
+#btn{
+    background-color: var(--x);
+    color: white;
+}
+#div1{
+    color: white;
+}
+.fluid-container{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.fluid-container h1{
+    margin-top: 90px;
+}
+.fluid-container img{
+    margin-top: 50px;
+}
+.fluid-container h3{
+    color: white;
+    font-weight: bold;
+    margin-left: 20px;
+}
+#btn1{
+    background-color: var(--x);
+    color: white;
+}
+#packages{
+    background-image: url('https://th.bing.com/th/id/R.c2af63c8a538c231cdc44095f7bb3201?rik=wvJilfi%2bMkvgLQ&riu=http%3a%2f%2fyukohasegawa.jp%2fwp-content%2fuploads%2f2022%2f11%2fmain-6.jpg&ehk=yb%2fXXr55VNSNfMS7KlUuogFiAu0SZRhYoBf5p1cHV6g%3d&risl=&pid=ImgRaw&r=0');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 5%;
+    padding-top: 6%;
+
+}
+#packages h1{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+}
+#packages img:hover{
+    transform: scale(1.2);
+}
+#imgs img:hover{
+    transform: scale(1.2);
+}
+#fluid img:hover{
+    transform: scale(1.3);
+    border-radius: 50%;
+}
+#mains{
+    background-image: url('https://th.bing.com/th/id/OIP.ioIqKnKDX0OjNQrZtd1upgHaEK?rs=1&pid=ImgDetMain');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#contacts{
+    margin-top: 150px;
+}
+#contacts label{
+    font-size: 25px;
+    font-style:italic ;
+}
+#contacts input{
+    width: 500px;
+    height: 40px;
+    background-color: rgba(255, 68, 0, 0.347);
+    border: 1px solid black;
+}
+#contacts textarea{
+    background-color: rgba(255, 68, 0, 0.347);
+    border: 1px solid black;
+}
+#btn1 a{
+    text-decoration: none;
+    color: white;
+}
